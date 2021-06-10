@@ -1,0 +1,105 @@
+.profile {
+	height: 100vh;
+	color: #fff;
+}
+.profile__screen {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	padding-top: 8%;
+	max-width: 800px;
+}
+.profile__info {
+	display: flex;
+}
+.profile__screen > h1 {
+	font-size: 60px;
+	font-weight: 400;
+	border-bottom: 1px solid #282c2d;
+	margin-bottom: 20px;
+	font-family: 'Fjalla One', sans-serif;
+}
+.profile__info > img {
+	width: 100px;
+	height: 100px;
+}
+.profile__details {
+	color: white;
+	margin-left: 25px;
+	flex: 1;
+}
+.profile__details > h2 {
+	background-color: grey;
+	padding: 15px;
+	font-size: 15px;
+	padding-left: 20px;
+}
+.profile__signOut {
+	padding: 10px 20px;
+	font-size: 1rem;
+	margin-top: 5%;
+	width: 100%;
+	color: #a7a7a7;
+	background-color: #e50914;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: transform 350ms;
+}
+.profile__signOut:hover {
+	color: #fff;
+	transform: scale(1.02);
+	opacity: 1;
+}
+.profile__plans {
+	margin-top: 20px;
+}
+.profile__plans > h3 {
+	border-bottom: 1px solid #282c2d;
+	padding-bottom: 10px;
+}
+.profile__plans > p {
+	padding-top: 15px;
+}
+.profile__subcribePackName {
+	margin: 15px;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	padding-top: 10px;
+	align-items: center;
+	transition: transform 350ms;
+}
+.profile__subcribePackName:hover {
+	transform: scale(1.02);
+	opacity: 1;
+}
+
+.profile__subcribePackName > h6 {
+	color: grey;
+	font-size: 0.8rem;
+}
+.profile__subcribePackName:hover > h6 {
+	color: #fff;
+}
+.profile__subcribePackName:hover > button {
+	color: #fff;
+}
+.profile__subcribePackName > span {
+	color: grey;
+}
+.profile__subcribePackName h6:hover {
+	color: #fff;
+}
+.profile__btnSubcribe {
+	padding: 10px;
+	background-color: #e50914;
+	color: #a7a7a7;
+	width: 30%;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 0.9rem;
+}
